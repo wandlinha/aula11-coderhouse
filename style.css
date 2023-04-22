@@ -1,0 +1,157 @@
+.titulo {
+    background-color: rgb(100, 180, 8);
+    color: rgb(218, 218, 218);
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+.titulo: hover {
+    color: pink;
+}
+
+.f2 {
+    background-color: white;
+    color: rgb(100, 180, 8);
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+.f2:hover {
+    background-color: pink;
+    color: black;
+}
+
+.link1>a {
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14x;
+    color: blue;
+}
+
+.link1>a:active {
+    color: blueviolet;
+}
+
+.link2>a {
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: blue;
+}
+
+.link2>a:visited {
+    color: blueviolet;
+}
+
+.titulo2 {
+    color: green;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+.lista1>ul>li:first-child {
+    color: green;
+    background-color: yellow;
+}
+
+.lista1>ul>li:last-child {
+    color: pink;
+    background-color: green;
+}
+
+.lista1>ul>li:nth-child(2) {
+    color: green;
+    background-color: pink;
+}
+
+.titulo3 {
+    color: green;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+
+.lista2>ul:first-of-type {
+    color: green;
+    background-color: pink;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.lista4>ul:last-of-type {
+    color: pink;
+    background-color: green;
+}
+
+.lista4>ul>li:not(.ultimoitem){
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: yellow;
+}
+
+.lista3>ul>li:nth-of-type(1){
+    color: yellow;
+    background-color: deeppink;
+}
+
+.comidagarfield>h1 {
+    color: blue;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.comidagarfield>input:checked {
+    outline: 2px solid green;
+}
+
+.titulo4 {
+    color: deeppink;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+.formscontato>label {
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.formscontato>input[type=email]:invalid {
+    background: orange;
+}
+
+.formscontato>input[type=email]:valid {
+    background: green;
+}
+
+.formscontato>input:required {
+    background: red;
+}
+
+.p1::after {
+    content: "🌻";
+}
+
+.p2::before {
+    content: "🌷";
+}
+
+.paragrafo1::first-letter {
+    color: red;
+    text-transform: uppercase;
+}
+
+.paragrafo2::first-line {
+    color: blue;
+}
+
+p::selection {
+    color: red;
+    background: yellow;
+}
+
+::marker {
+    color: orangered;
+    font-size: 12px;
+}
+
+::placeholder {
+    color: orangered
+}
